@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --Ablue: #0866ff;
+    --BGreen: #42b72a;
+    --BackWhite: #f0f2f5;
+    --Cwhite: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    background-color: #f0f2f5;
+}
+
+.MainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+} 
+
+.MainContainer .left {
+    width: 60%;
+    height: 100%;
+    padding-top: 150px;
+
+}
+
+.MainContainer .left img {
+    width: 40%;
+    height: auto;
+    margin-left: 215px;
+}
+
+.MainContainer .left p {
+    font-size: 24px;
+    font-family: Regular, Hevetica, Arial;
+    margin-left: 240px;
+    margin-top: -10px;
+}
+
+.MainContainer .right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.MainContainer .right .box {
+    border: #2a2c2c;
+   width: 350px;
+   height: 300px;
+   background-color: #fff;
+   border-radius: 15px;
+   margin-bottom: 15px;
+   margin-left: 20px;
+   padding-top: 10px;
+
+}
+.MainContainer .right .box .text {
+    width: 315px;
+    padding: 15px;
+    margin: 5px;
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 7px;
+    border: 1px solid #b9b6b6;
+    box-sizing: border-box;
+    caret-color: #0866ff;
+}
+.MainContainer .right .box .text:focus {
+    outline: 1px solid #0866ff;
+}
+
+.MainContainer .right .box .password {
+    width: 315px;
+    padding: 15px;
+    margin: 5px;
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 7px;
+    border: 1px solid #b9b6b6;
+    box-sizing: border-box;
+    caret-color: #0866ff;
+}
+
+.MainContainer .right .box .password
+
+.MainContainer .right .box .line {
+    height: -10px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.MainContainer .right .box .button {
+    width: 315px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 40%;
+    background-color: #0866ff;
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MainContainer .right .box .button .B {
+    background-color: #0866ff;
+    border: #0866ff;
+    width: 50px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.MainContainer .right .box .Forgotten {
+    padding-left: 30%;
+    color: #0866ff;
+    text-decoration: none;
+
+}
+
+.MainContainer .right .box .line {
+    opacity: 0.4;
+}
+
+.MainContainer .right .box .newaccount {
+    height: 40px;
+    width: 180px;
+    margin: 15px;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #42b72a;
+    border-radius: 7px;
+}
+.MainContainer .right .box .newaccount .Create {
+    color: #fff;
+    text-decoration: none;
+}
+
+.MainContainer .right .page {
+    width: 350px;
+    margin-left: 58px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 28px;
+    color: black;
+}
+
+.MainContainer .right .page .business {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
